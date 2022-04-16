@@ -1,6 +1,6 @@
 # Maps
 
-With Arrays and Slices with stored data in a linear structure accessed it using an integer that represents its position.
+With Arrays and Slices data is stored in a linear structure and accessed by integers that represent positions.
 
 With maps we use `keys`.
 
