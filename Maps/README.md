@@ -11,5 +11,10 @@ Something particular about go, it taks two types to declare a map:
 dictionary := map[string]string{"test": "this is a test"}
 ```
 
+## Pointers
+Another very interesting thing here is that you can modify a map without passing an address (&myMap),
+because a map value is a pointer to a runtime.hmap structure.
 
-Another very interesting thing here is that you can modify a map without passing an address (&myMap).
+## Initalization
+[//]: # (TODO: https://go.dev/blog/maps)
+
